@@ -1,3 +1,5 @@
+const ClientError = require('../../exceptions/ClientError');
+
 class NotesHanler {
   constructor(service, validator) {
     this._service = service;
